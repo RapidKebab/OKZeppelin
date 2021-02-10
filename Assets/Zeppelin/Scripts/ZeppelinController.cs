@@ -4,19 +4,19 @@ using UnityEngine;
 
 public class ZeppelinController : MonoBehaviour
 {
-    public bool armed;
+    public bool armed; //Determines if you can drop bombs
     public float baseThrust;
-    public float[] gearRatios = {-1, 0, 1, 2, 3, 4};
-    public Animator prop;
+    public float[] gearRatios = {-1, 0, 1, 2, 3, 4}; //Gear ratios, multiply the basethrust and animation speed for the prop.
+    public Animator prop; //propeller, visual only.
     int currentGear;
     float thrust;
-    public Transform rotator;
-    public Transform enjin;
+    public Transform rotator; //the part that rotates the engine
+    public Transform enjin; //force application point
     public Rigidbody rb;
-    public float maxRot;
-    public float altChange;
-    public GameObject bomb;
-    public Transform bombSpawn;
+    public float maxRot; //maximum steering angle for the rotor
+    public float altChange; //up-down movement speed
+    public GameObject bomb; //bomb prefab
+    public Transform bombSpawn; //bomb spawn location
 
     // Start is called before the first frame update
     void Start()
