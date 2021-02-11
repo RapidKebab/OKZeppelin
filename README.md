@@ -1,5 +1,5 @@
 # OKZeppelin
-A rigidbody based zeppelin/blimp controller for Unity3D. Old Code that I've now open-sourced. Provided as-is.
+A rigidbody based zeppelin/blimp controller for Unity3D. Old Code that I've now open-sourced. Provided as-is, would appreciate being credited if you use this.
 
 Controls: Unity default vertical and horizontal for altitude and yaw, LShift and LCtrl to shift gears and go forward and backward.
 
